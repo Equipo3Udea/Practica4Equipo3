@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".PerimetroCuadro">
+
+    <ImageView
+        android:id="@+id/iv_cuadrado"
+        android:layout_width="217dp"
+        android:layout_height="157dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_titulopc"
+        app:layout_constraintVertical_bias="0.029"
+        app:srcCompat="@drawable/cuadrado"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tv_titulopc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="casual"
+        android:text="@string/titulo"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_ladocuadrado"
+        android:layout_width="278dp"
+        android:layout_height="32dp"
+        android:background="#CBC4D6"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/ingresarlado"
+        android:importantForAutofill="no"
+        android:inputType="number|numberDecimal"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_cuadrado"
+        app:layout_constraintVertical_bias="0.029" />
+
+    <Button
+        android:id="@+id/bt_calcularpc"
+        android:layout_width="207dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="24dp"
+        android:background="#673AB7"
+        android:fontFamily="casual"
+        android:text="@string/calcular"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_ladocuadrado" />
+
+    <Button
+        android:id="@+id/id_otraoperacion"
+        android:layout_width="208dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="10dp"
+        android:background="#673AB7"
+        android:fontFamily="casual"
+        android:text="@string/otraoperacion"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tv_resultadopc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_calcularpc"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <TextView
+        android:id="@+id/tv_resultadopc"
+        android:layout_width="186dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="56dp"
+        android:capitalize="none"
+        android:gravity="center_horizontal"
+        android:text="@string/resultado1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_calcularpc"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="Deprecated,TextViewEdits" />
+</androidx.constraintlayout.widget.ConstraintLayout>

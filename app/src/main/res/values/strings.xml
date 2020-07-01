@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Practica4Equipo3</string>
+    <string name="titulo">Perímetro del cuadrado</string>
+    <string name="ingresarlado">Ingrese el lado</string>
+    <string name="calcular">calcular</string>
+    <string name="otraoperacion">Ir a otra operación</string>
+    <string name="ir">IR</string>
+    <string name="resulado">Resulatdo</string>
+    <string name="resultado1">Resultado</string>
 </resources>
