@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Practica4Equipo3</string>
+    <string name="apotema">Cuanto mide el apotema (cm)</string>
+    <string name="lado">Cuanto mide el lado (cm)</string>
+    <string name="calcular">Cálcular área</string>
+    <string name="areacirculo">Área de un circulo</string>
+    <string name="AreaHexagono">Área de un Héxagono</string>
+    <string name="PerimetroHexagono">Perímetro Héxagono</string>
+    <string name="AreaTriangul">Área de un triangulo</string>
+    <string name="PerimetroCirculo">Perímetro de un cricurlo</string>
+    <string name="AreaCuadrado">Área de un cuadrado</string>
 </resources>
