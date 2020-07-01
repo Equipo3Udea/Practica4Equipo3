@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Practica4Equipo3</string>
+    <string name="AreaCirculo">Área del círculo</string>
+    <string name="radioncm">Radio en cm</string>
+    <string name="resultadoArea">Resultado</string>
+    <string name="calcularArea">Calcular</string>
+    <string name="radiocm">Radio en cm</string>
 </resources>
