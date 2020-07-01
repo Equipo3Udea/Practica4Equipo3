@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Practica4Equipo3</string>
+    <string name="PerimetroHexagono">Perímetro de un hexágono regular</string>
+    <string name="ValorLado">Ingrese el valor del lado del heágono (cm)</string>
+    <string name="CalcularPerimHexa">Calcular</string>
 </resources>
