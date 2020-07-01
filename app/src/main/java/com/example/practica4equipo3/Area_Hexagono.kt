@@ -2,6 +2,7 @@ package com.example.practica4equipo3
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import kotlinx.android.synthetic.main.activity_area__hexagono.*
 
 class Area_Hexagono : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
