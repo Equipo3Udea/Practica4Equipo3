@@ -1,5 +1,6 @@
 package com.example.practica4equipo3
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_pertriangulo.*
@@ -18,7 +19,12 @@ class PertrianguloActivity : AppCompatActivity() {
             tv_res.text = "Perímetro: $lado cm"
 
         }
+        bt_volver.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
 
-        
+
     }
 }
