@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    android:foregroundTint="@color/darkviolet"
+    tools:context=".AreaTrianguloActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_triangulo_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/triangulo_titulo"
+            android:textAllCaps="true"
+            android:textColor="@color/brown"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="261dp"
+            app:srcCompat="@drawable/triangu" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="Base del triángulo (cm):"
+            android:textColor="@color/brown"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_triangulo_base"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="sans-serif-condensed-light"
+            android:hint="@string/triangulo_base"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkgray" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="Altura del triángulo (cm):"
+            android:textColor="@color/brown"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_triangulo_altura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="sans-serif-condensed-light"
+            android:hint="@string/triangulo_altura"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkgray" />
+
+        <Button
+            android:id="@+id/bt_calcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/brown"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/triangulo_calcular"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_triangulo_mostrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>

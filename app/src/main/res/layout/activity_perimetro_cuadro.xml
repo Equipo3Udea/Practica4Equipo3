@@ -60,7 +60,7 @@
         android:layout_marginTop="24dp"
         android:background="#673AB7"
         android:fontFamily="casual"
-        android:text="@string/calcular"
+        android:text="@string/calcular_pc"
         android:textColor="@android:color/background_light"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
