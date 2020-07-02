@@ -3,4 +3,22 @@
     <string name="PerimetroHexagono">Perímetro de un hexágono regular</string>
     <string name="ValorLado">Ingrese el valor del lado del heágono (cm)</string>
     <string name="CalcularPerimHexa">Calcular</string>
+    <string name="AreaCirculo">Área del círculo</string>
+    <string name="radioncm">Radio en cm</string>
+    <string name="resultadoArea">Resultado</string>
+    <string name="calcularArea">Calcular</string>
+    <string name="radiocm">Radio en cm</string>
+    <string name="triangulo_titulo">Área del triángulo</string>
+    <string name="triangulo_base">Ingrese la base</string>
+    <string name="triangulo_altura">Ingrese la altura</string>
+    <string name="triangulo_calcular">Calcular Área</string>
+    <string name="apotema">Cuanto mide el apotema (cm)</string>
+    <string name="lado">Cuanto mide el lado (cm)</string>
+    <string name="calcular">Cálcular área</string>
+    <string name="areacirculo">Área de un circulo</string>
+    <string name="AreaHexagono">Área de un Héxagono</string>
+    <string name="PerimetroHexagono">Perímetro Héxagono</string>
+    <string name="AreaTriangul">Área de un triangulo</string>
+    <string name="PerimetroCirculo">Perímetro de un cricurlo</string>
+    <string name="AreaCuadrado">Área de un cuadrado</string>
 </resources>
