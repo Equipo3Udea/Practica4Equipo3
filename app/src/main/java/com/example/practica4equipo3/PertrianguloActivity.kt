@@ -16,7 +16,7 @@ class PertrianguloActivity : AppCompatActivity() {
             lado = Integer.parseInt(et_lado.text.toString())
             lado = lado * 3
             str = lado.toString()
-            tv_res.text = "Perímetro: $lado cm"
+            tv_res.text = "Perímetro: $str cm"
 
         }
         bt_volver.setOnClickListener {
