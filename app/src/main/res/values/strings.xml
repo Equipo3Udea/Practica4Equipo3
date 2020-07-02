@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">Practica4Equipo3</string>
+    <string name="AreaCirculo">Área del círculo</string>
+    <string name="radioncm">Radio en cm</string>
+    <string name="resultadoArea">Resultado</string>
+    <string name="calcularArea">Calcular</string>
+    <string name="radiocm">Radio en cm</string>
     <string name="triangulo_titulo">Área del triángulo</string>
     <string name="triangulo_base">Ingrese la base</string>
     <string name="triangulo_altura">Ingrese la altura</string>
