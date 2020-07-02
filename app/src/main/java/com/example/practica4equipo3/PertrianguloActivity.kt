@@ -9,13 +9,16 @@ class PertrianguloActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pertriangulo)
         var lado = 0
+        var str = "0"
 
         bt_calc.setOnClickListener {
             lado = Integer.parseInt(et_lado.text.toString())
             lado = lado * 3
+            str = lado.tostring()
             tv_res.text = "Perímetro: $lado cm"
 
         }
+
 
     }
 }
