@@ -17,7 +17,6 @@
     <string name="calcular">Cálcular área</string>
     <string name="areacirculo">Área de un circulo</string>
     <string name="AreaHexagono">Área de un Héxagono</string>
-    <string name="PerimetroHexagono">Perímetro Héxagono</string>
     <string name="AreaTriangul">Área de un triangulo</string>
     <string name="PerimetroCirculo">Perímetro de un cricurlo</string>
     <string name="AreaCuadrado">Área de un cuadrado</string>
@@ -28,4 +27,8 @@
     <string name="ir">IR</string>
     <string name="resulado">Resulatdo</string>
     <string name="resultado1">Resultado</string>
+    <string name="titulo_per">Perímetro de Triángulo</string>
+    <string name="lado_per">lado(cm)</string>
+    <string name="calcular_per">Calcurar Perímetro</string>
+    <string name="volver">Volver</string>
 </resources>
