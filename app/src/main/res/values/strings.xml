@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Practica4Equipo3</string>
+    <string name="titulo">Perímetro de Triángulo</string>
+    <string name="lado">lado(cm)</string>
+    <string name="calcular">Calcurar Perímetro</string>
+    <string name="volver">Volver</string>
 </resources>
