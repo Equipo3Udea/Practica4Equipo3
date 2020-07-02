@@ -47,5 +47,3 @@ class MainActivity : AppCompatActivity() {
 
     }
 }
-
-//Primer commit de prueba

@@ -21,4 +21,11 @@
     <string name="AreaTriangul">Área de un triangulo</string>
     <string name="PerimetroCirculo">Perímetro de un cricurlo</string>
     <string name="AreaCuadrado">Área de un cuadrado</string>
+    <string name="titulo">Perímetro del cuadrado</string>
+    <string name="ingresarlado">Ingrese el lado</string>
+    <string name="calcular_pc">calcular_pc</string>
+    <string name="otraoperacion">Ir a otra operación</string>
+    <string name="ir">IR</string>
+    <string name="resulado">Resulatdo</string>
+    <string name="resultado1">Resultado</string>
 </resources>

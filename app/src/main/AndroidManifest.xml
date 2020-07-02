@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.practica4equipo3">
 
     <application
@@ -13,6 +14,9 @@
         <activity android:name=".AreaTrianguloActivity"></activity>
         <activity android:name=".Area_Hexagono"></activity>
         <activity android:name=".AreaCirculoActivity"></activity>
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup">
+        <activity android:name=".PerimetroCuadro" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
