@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Practica4Equipo3</string>
+    <string name="triangulo_titulo">Área del triángulo</string>
+    <string name="triangulo_base">Ingrese la base</string>
+    <string name="triangulo_altura">Ingrese la altura</string>
+    <string name="triangulo_calcular">Calcular Área</string>
     <string name="apotema">Cuanto mide el apotema (cm)</string>
     <string name="lado">Cuanto mide el lado (cm)</string>
     <string name="calcular">Cálcular área</string>
