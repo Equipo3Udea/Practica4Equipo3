@@ -12,35 +12,32 @@ class MainActivity : AppCompatActivity() {
 
         b_PerimetroHexagono.setOnClickListener {
 
-            val intent: Intent =
-                Intent(this, /*poner aquí la actividad correspondiente*/::class.java)
+            val intent: Intent = Intent(this, ActivityPerimetroHexagono::class.java)
             startActivity(intent)
         }
 
-        b_PerimetroCirculo.setOnClickListener {
-            val intent: Intent =
-                Intent(this, /*poner aquí la actividad correspondiente*/::class.java)
+        b_PerimetroCuadrado.setOnClickListener {
+            val intent: Intent = Intent(this, PerimetroCuadro::class.java)
             startActivity(intent)
         }
+
         b_AreaCirculo.setOnClickListener {
-            val intent: Intent =
-                Intent(this, /*poner aquí la actividad correspondiente*/::class.java)
+            val intent: Intent = Intent(this, AreaCirculoActivity::class.java)
             startActivity(intent)
         }
+
         b_AreaHexagono.setOnClickListener {
             val intent: Intent = Intent(this, Area_Hexagono::class.java)
             startActivity(intent)
         }
-        b_AreaTriangulo.setOnClickListener {
 
-            val intent: Intent =
-                Intent(this, /*poner aquí la actividad correspondiente*/::class.java)
+        b_AreaTriangulo.setOnClickListener {
+            val intent: Intent = Intent(this, AreaTrianguloActivity::class.java)
             startActivity(intent)
         }
 
-        b_AreaCuadrado.setOnClickListener {
-            val intent: Intent =
-                Intent(this, /*poner aquí la actividad correspondiente*/::class.java)
+        b_PerimetroTriangulo.setOnClickListener {
+            val intent: Intent = Intent(this, PertrianguloActivity::class.java)
             startActivity(intent)
         }
 
